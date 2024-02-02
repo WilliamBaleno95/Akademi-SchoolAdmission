@@ -1,5 +1,7 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
-
+body {
+    background-color: #F3F4FF;
+}
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -71,3 +73,12 @@ a, .btn-link {
     background-color: #4D44B5;
 }
    */
+
+.div_main_top {
+    background-color: #F3F4FF;
+}
+
+.nav_item_h {
+    color: #4D44B5;
+    font-weight: bold;
+}
