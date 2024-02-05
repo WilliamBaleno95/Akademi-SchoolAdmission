@@ -82,3 +82,42 @@ a, .btn-link {
     color: #4D44B5;
     font-weight: bold;
 }
+
+.div_search{
+    max-width:24%;
+}
+
+.dashboard {
+    color: #A098AE;
+}
+
+.div_dashboard_students, .div_dashboard_teachers, .div_dashboard_event, .div_dashboard_foods {
+    
+    max-height: 55px;
+    max-width: 55px;
+}
+
+.div_dashboard_students {
+    background-color: #4D44B5;
+}
+
+.div_dashboard_teachers {
+    background-color: #FB7D5B;
+}
+.div_dashboard_event {
+    background-color: #FCC43E;
+}
+.div_dashboard_foods {
+    background-color: #303972;
+}
+.p_margin{
+    margin:0;
+}
+.input_search {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.btn_search{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
