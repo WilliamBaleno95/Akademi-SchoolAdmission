@@ -121,3 +121,7 @@ a, .btn-link {
     border-top-right-radius:12px;
     border-bottom-right-radius:12px;
 }
+
+.colorPurple {
+    color: #4D44B5;
+}
