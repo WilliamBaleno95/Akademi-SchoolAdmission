@@ -125,3 +125,24 @@ a, .btn-link {
 .colorPurple {
     color: #4D44B5;
 }
+
+.btn_newStudent {
+    background-color: #4D44B5;
+    border:none;
+    color:white;
+    border-radius:20px;
+    font-size:13px;
+}
+.btn_Newest {
+    border: solid 1px #4D44B5;
+    color: #4D44B5;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.btn_newStudent:hover{
+    color: white;
+}
+.btn_Newest:hover {
+    color: #4D44B5;
+}
