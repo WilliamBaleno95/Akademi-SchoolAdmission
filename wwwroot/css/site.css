@@ -1,6 +1,7 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 body {
     background-color: #F3F4FF;
+   
 }
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -145,4 +146,24 @@ a, .btn-link {
 }
 .btn_Newest:hover {
     color: #4D44B5;
+}
+
+.div_student_detail1 {
+    display:flex;
+    background-color: #4D44B5;
+    height: 40px;
+    align-items:center;
+    /*text-align:center;*/
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.div_student_detail2 {
+    background-color: white;
+    display: flex;
+    color: #303972;
+}
+
+.new_page {
+    font-family: Arial;
 }

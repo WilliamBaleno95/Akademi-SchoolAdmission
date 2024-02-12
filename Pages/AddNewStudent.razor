@@ -1,7 +1,57 @@
 ﻿@page "/AddNewStudent"
+<div class="new_page" style=" ">
+    <div class="top-row px-4">
+        <h4 class="nav_item_h">Add New Student</h4>
+    </div>
 
-<h3>AddNewStudent</h3>
+    <div class="px-4 mt">
+        <div class="div_student_detail1 ">
+            <p class="m-4" style="color:white; margin:0;">Student Details</p>
+        </div>
+        <div class="div_student_detail2">
+            <div class="m-4">
+                <p>Photo *</p>
+                <div style="width:140px; height:140px; border: 1px dashed #4D44B5;">
+                </div>
+            </div>
+            <div style="width: 35%;" class="m-4">
+                <div class="">
+                    <label class="form-label">First Name *</label>
+                    <input type="text" class="form-control" id="form_First_Name" placeholder="Baleno" required>
+                </div>
+                <div class="mt-3">
+                    <label class="form-label">Date of Birth * </label>
+                    <input type="date" class="form-control" @bind="birthDate" @bind:event="oninput" id="form_Date" required>
+                </div>
+                <div class="mt-3">
+                    <label class="form-label">Email * </label>
+                    <input type="email" class="form-control" id="form_email" placeholder="william@gmail.com" required>
+                </div>
+                <div class="mt-3">
+                    <label for="form_address" class="form-label">Address *</label>
+                    <textarea class="form-control" id="form_address" rows="4" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."></textarea>
+                </div>
+            </div>
+            <div style="width: 35%;" class="m-4">
+                <div class="">
+                    <label class="form-label">Last Name *</label>
+                    <input type="text" class="form-control" id="form_Last_Name" placeholder="Wiliam" required>
+                </div>
+                <div class="mt-3">
+                    <label class="form-label">Parent Name * </label>
+                    <input type="text" class="form-control" id="form_Parent_Name" placeholder="Maria Auxilia Baleno" required>
+                </div>
+                <div class="mt-3">
+                    <label class="form-label">Phone * </label>
+                    <input type="number" class="form-control" id="form_Phone" placeholder="+248 984 92 42" required>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 
 @code {
-
+    private DateTime birthDate = DateTime.Today;
 }
