@@ -127,24 +127,24 @@ a, .btn-link {
     color: #4D44B5;
 }
 
-.btn_newStudent {
+.btn_newStudent, .btn_submit {
     background-color: #4D44B5;
-    border:none;
-    color:white;
-    border-radius:20px;
-    font-size:13px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
 }
-.btn_Newest {
+.btn_Newest, .btn_save_draft {
     border: solid 1px #4D44B5;
     color: #4D44B5;
     border-radius: 20px;
     font-size: 13px;
 }
 
-.btn_newStudent:hover{
+.btn_newStudent:hover, .btn_submit:hover{
     color: white;
 }
-.btn_Newest:hover {
+.btn_Newest:hover, .btn_save_draft:hover {
     color: #4D44B5;
 }
 
@@ -162,8 +162,25 @@ a, .btn-link {
     background-color: white;
     display: flex;
     color: #303972;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
 }
 
 .new_page {
     font-family: Arial;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
