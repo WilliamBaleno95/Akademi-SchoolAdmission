@@ -127,7 +127,7 @@ a, .btn-link {
     color: #4D44B5;
 }
 
-.btn_newStudent, .btn_submit {
+.btn_newStudent, .btn_submit, .btn_newTeacher {
     background-color: #4D44B5;
     border: none;
     color: white;
@@ -141,7 +141,7 @@ a, .btn-link {
     font-size: 13px;
 }
 
-.btn_newStudent:hover, .btn_submit:hover{
+.btn_newStudent:hover, .btn_submit:hover, .btn_newTeacher:hover{
     color: white;
 }
 .btn_Newest:hover, .btn_save_draft:hover {
